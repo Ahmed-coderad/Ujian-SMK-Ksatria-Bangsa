@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Portal Ujian Daring — SMK Ksatria Bangsa</title>
+<meta name="description" content="Portal Sumatif Tengah Semester — Kompetensi Keahlian Manajemen Perkantoran dan Layanan Bisnis, SMK Ksatria Bangsa">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="letterhead">
+  <div class="letterhead-inner">
+    <div class="letterhead-brand">
+      <div class="letterhead-crest"><span>KB</span></div>
+      <div class="letterhead-text">
+        <h1>SMK Ksatria Bangsa</h1>
+        <p>Manajemen Perkantoran &amp; Layanan Bisnis</p>
+      </div>
+    </div>
+    <div class="letterhead-doc">
+      Portal Ujian Daring<br>
+      <b>Sumatif Tengah Semester</b> · Semester 1
+    </div>
+  </div>
+</header>
+
+<main id="app" class="page-wrap"></main>
+
+<footer class="footer-note">
+  &copy; <span id="yr"></span> Rizky Ahmed Darmawan — Sistem Ujian Daring Kompetensi Keahlian Manajemen Perkantoran &amp; Layanan Bisnis.
+  &nbsp;·&nbsp; <a href="admin.html">Portal Administrator</a>
+</footer>
+
+<script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-database-compat.js"></script>
+<script src="firebase-config.js"></script>
+<script src="cloud.js"></script>
+<script src="data.js"></script>
+<script src="db.js"></script>
+<script src="shared.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
