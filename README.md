@@ -1,1 +1,0 @@
-# Ujian-SMK-Ksatria-Bangsa
