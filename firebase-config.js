@@ -29,11 +29,11 @@
    ============================================================ */
 
 window.FIREBASE_CONFIG = {
-  apiKey: "ISI_DI_SINI",
+  apiKey: "https://portal-ujian-kb-default-rtdb.asia-southeast1.firebasedatabase.app/",
   authDomain: "ISI_DI_SINI.firebaseapp.com",
   databaseURL: "https://portal-ujian-kb-default-rtdb.asia-southeast1.firebasedatabase.app/",
-  projectId: "ISI_DI_SINI",
+  projectId: "https://portal-ujian-kb-default-rtdb.asia-southeast1.firebasedatabase.app/",
   storageBucket: "ISI_DI_SINI.appspot.com",
-  messagingSenderId: "ISI_DI_SINI",
-  appId: "ISI_DI_SINI"
+  messagingSenderId: "https://portal-ujian-kb-default-rtdb.asia-southeast1.firebasedatabase.app/",
+  appId: "https://portal-ujian-kb-default-rtdb.asia-southeast1.firebasedatabase.app/"
 };
