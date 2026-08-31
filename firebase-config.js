@@ -31,7 +31,7 @@
 window.FIREBASE_CONFIG = {
   apiKey: "ISI_DI_SINI",
   authDomain: "ISI_DI_SINI.firebaseapp.com",
-  databaseURL: "https://ISI_DI_SINI-default-rtdb.asia-southeast1.firebasedatabase.app",
+  databaseURL: "https://portal-ujian-kb-default-rtdb.asia-southeast1.firebasedatabase.app/",
   projectId: "ISI_DI_SINI",
   storageBucket: "ISI_DI_SINI.appspot.com",
   messagingSenderId: "ISI_DI_SINI",
